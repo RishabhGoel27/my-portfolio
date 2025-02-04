@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1b29; /* Deep Midnight */
+  color: #e0e0e0; /* Soft Silver */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  background: #3e1f47; /* Royal Plum */
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #ff5e62 3px solid; /* Vivid Coral */
+}
+
+header h1 {
+  float: left;
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #ffbe0b; /* Golden Sunset */
+}
+
+/* Sections */
+section {
+  padding: 20px 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffbe0b; /* Golden Sunset */
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  background: #2a2d43; /* Night Indigo */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 94, 98, 0.5); /* Vivid Coral */
+}
+
+.skill i {
+  font-size: 2rem;
+  color: #ffbe0b; /* Golden Sunset */
+}
+
+/* Projects */
+.project {
+  background: #25293c; /* Charcoal Sapphire */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 94, 98, 0.5); /* Vivid Coral */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffbe0b; /* Golden Sunset */
+  color: #1c1b29; /* Deep Midnight */
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ff5e62; /* Vivid Coral */
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #3e1f47; /* Royal Plum */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
